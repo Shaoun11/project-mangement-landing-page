@@ -9,13 +9,13 @@ const SponsorPage = () => {
     return (
         // website Sponsor Section start
         <div className='md:mt-16 mb-16 mt-16 bg-[#F9F9FA] '>
-           <div className='md:flex lg:gap-16 ml-16 mr-16 pt-8 pb-8'>
+           <div className='md:flex  ml-16 mr-16 pt-8 pb-8'>
             {/* Sponsor Section text */}
            <div>
                 <p className='text-[#919295]  font-medium md:text-base text-[12px] md:mb-0 mb-3 '> Trusted by more than 10,000 businesses <br />
                     from various industries</p>
             </div>
-            <div className='lg:flex md:grid md:grid-cols-3 grid grid-cols-2  md:gap-12 gap-5'>
+            <div className='lg:grid lg:grid-cols-5 md:grid md:grid-cols-3 grid grid-cols-2  md:gap-12 gap-5'>
                 {/* Sponsor Section logo */}
                 <img src={logo} alt="" />
                 <img src={logo1} alt="" />
