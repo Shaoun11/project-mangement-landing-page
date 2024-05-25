@@ -9,8 +9,9 @@ import FeaturesPage from '../components/Features Page/FeaturesPage.jsx';
 import Pricing from '../components/Pricing/Pricing.jsx';
 import Testimonials from '../components/TestimonialsPage/Testimonials.jsx';
 import FAQ from '../components/FAQPage/FAQ.jsx';
-import AdbertiseBanner from '../components/AdbertiseBanner/AdbertiseBanner.jsx';
+
 import Footer from '../components/Footer/Footer.jsx';
+import AdvertiseBanner from '../components/AdvertiseBanner/AdvertiseBanner.jsx';
 const HomePage = () => {
     return (
         <AppLayout>
@@ -22,7 +23,7 @@ const HomePage = () => {
             <Pricing></Pricing>
             <Testimonials></Testimonials>
             <FAQ></FAQ>
-            <AdbertiseBanner></AdbertiseBanner>
+            <AdvertiseBanner></AdvertiseBanner>
             <Footer></Footer>
 
         </AppLayout>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AdbertiseBanner = () => {
+const AdvertiseBanner = () => {
     return (
         // Advertise banner page code start
         <div className='mt-[140px] mb-[140px] md:pl-16 pl-2 pr-1 md:pr-16 '>
@@ -24,4 +24,4 @@ const AdbertiseBanner = () => {
     );
 };
 
-export default AdbertiseBanner;
+export default AdvertiseBanner;
