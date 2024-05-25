@@ -15,9 +15,9 @@ const FeaturesPage = () => {
                 Experience seamless collaboration, streamlined workflows, and data-driven decision-making with Optiplan
             </p>
 
-            <div className='lg:flex  md:ml-16 ml-3  md:mr-16 mt-16 gap-6 '>
+            <div className='lg:flex  md:ml-16 ml-1  md:mr-16 mt-16 gap-6 '>
                {/* Feature Page First Card */}
-                <div className='flex  pl-12 pr-12 bg-[#F9F9FA] lg:w-[714px] md:w-[650px] w-[430px]   md:h-[400px]   border-[1px] border-solid rounded-[12px] border-[#91929533]'>
+                <div className='flex  md:pl-12 md:pr-12 bg-[#F9F9FA] lg:w-[714px] md:w-[650px] w-[365px]   md:h-[400px]   border-[1px] border-solid rounded-[12px] border-[#91929533]'>
                     <div className=''>
                         <div>
                             <img src={fetureimg3} alt="" />
@@ -41,7 +41,7 @@ const FeaturesPage = () => {
                     </div>
                 </div>
                 {/* Feature Page Second Card */}
-                <div className='flex lg:mt-0 md:mt-6 mt-6  pl-12 pr-12 bg-[#F9F9FA] lg:w-[520px] md:w-[650px] w-[430px]   md:h-[400px]    border-[1px] border-solid rounded-[12px] border-[#91929533]'>
+                <div className='flex lg:mt-0 md:mt-6 mt-6  pl-12 pr-12 bg-[#F9F9FA] lg:w-[520px] md:w-[650px] w-[365px]   md:h-[400px]    border-[1px] border-solid rounded-[12px] border-[#91929533]'>
                     <div >
                         <div>
                             <img src={fetureimg4} alt="" className='pt-12 w-[600px] -ml-[48px]' />
@@ -64,9 +64,9 @@ const FeaturesPage = () => {
                 </div>
             </div>
 
-            <div className='lg:flex mt-6  md:ml-16 md:mr-16 ml-3 gap-6 '>
+            <div className='lg:flex mt-6  md:ml-16 md:mr-16 ml-1 gap-6 '>
             {/* Feature Page Third Card */}
-                <div className='flex gap-4 pl-12 pr-12 bg-[#F9F9FA] lg:w-[520px] md:w-[650px] w-[430px]  md:h-[400px]   border-[1px] border-solid rounded-[12px] border-[#91929533]'>
+                <div className='flex gap-4 pl-12 pr-12 bg-[#F9F9FA] lg:w-[520px] md:w-[650px] w-[365px]  md:h-[400px]   border-[1px] border-solid rounded-[12px] border-[#91929533]'>
                     <div >
                         <div>
                             <img src={fetureimg1} alt="" className='pt-10 lg:w-[500px] md:w-[300px] w-[300px] -ml-[48px]' />
@@ -87,7 +87,7 @@ const FeaturesPage = () => {
                     </div>
                 </div>
                 {/* Feature Page Four Card */}
-                <div className='flex gap-4 pl-12 pr-12 bg-[#F9F9FA] lg:w-[714px] md:w-[650px] w-[430px] lg:mt-0 md:mt-6 mt-6 border-[1px] border-solid rounded-[12px] border-[#91929533]'>
+                <div className='flex gap-4 md:pl-12 md:pr-12 bg-[#F9F9FA] lg:w-[714px] md:w-[650px] w-[365px] lg:mt-0 md:mt-6 mt-6 border-[1px] border-solid rounded-[12px] border-[#91929533]'>
                     <div >
                         <div>
                             <img src={fetureimg5} alt="" className='pt-20 md:pt-16 w-[620px] ' />

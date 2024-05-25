@@ -30,7 +30,7 @@ const Pricing = () => {
         {/* Pricing Card Start */}
         <div className='grid  lg:grid-cols-3 md:grid-cols-1 lg:ml-0 md:ml-28  md:pl-16 md:pr-16'>
         {/* Pricing card:1 */}
-        <div className="p-4 w-[416px]">
+        <div className="p-4 md:w-[416px] w-[380px]">
         <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
             <div className='pl-8 pr-8 pt-4 pb-4 bg-[#F9F9FA] border-[#91929533] border-[1px] solid rounded-xl '>
                 <div className='flex gap-2'>
@@ -71,7 +71,7 @@ const Pricing = () => {
     </div>
 
        {/* Pricing card:2 */}
-       <div className="p-4  w-[416px]">
+       <div className="p-4  md:w-[416px] w-[380px]">
         <div className="h-full p-6 rounded-lg border-2  bg-[#3B68FF] flex flex-col relative overflow-hidden">
             <div className='pl-8 pr-8 pt-4 pb-4 bg-[#6286FF] border-[#91929533] border-[1px] solid rounded-xl '>
                 <div className='flex gap-2'>
@@ -111,7 +111,7 @@ const Pricing = () => {
         </div>
     </div>
        {/* Pricing card:3 */}
-       <div className="p-4 w-[416px]">
+       <div className="p-4 md:w-[416px] w-[380px]">
         <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
             <div className='pl-8 pr-8 pt-4 pb-4 bg-[#F9F9FA] border-[#91929533] border-[1px] solid rounded-xl '>
                 <div className='flex gap-2'>

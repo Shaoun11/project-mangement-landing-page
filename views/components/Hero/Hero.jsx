@@ -44,7 +44,7 @@ const Hero = () => {
             {/*Use website Hero page Image*/}
 
             <div>
-                <img src={banner} alt="DevGenius Hero Page Banner Image" className='w-[598px]  lg:ml-12'/>
+                <img src={banner} alt="DevGenius Hero Page Banner Image" className='w-[598px] md:mt-0  mt-2  lg:ml-12'/>
 
             </div>
         </div>

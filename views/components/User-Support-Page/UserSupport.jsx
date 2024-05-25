@@ -12,14 +12,15 @@ const UserSupport = () => {
 
         // Website user-support-section start
 
-        <div className='lg:flex mt-32 ml-16 mr-16 gap-12' >
+        <div className='lg:flex mt-32 md:ml-16 ml-2 mr-2 md:mr-16 gap-12' >
             {/* user-support-section text and card */}
             <div className=''>
-                <p className='md:text-5xl text-[20px] font-medium'>
+                <p className='md:text-5xl md:text-start text-center text-[20px] font-medium'>
                 Have You Ever Experienced <br /> Endless Distractions?
                 </p>
-               <div className='mt-12'>
-               <div className='flex gap-6  bg-[#F9F9FA] md:w-[646px]  w-[360px]  p-6 border-[1px] border-solid rounded-[12px] border-[#91929533]'>
+               <div className='mt-12 '>
+               {/* user-support-section first card */}
+               <div className='flex gap-6   bg-[#F9F9FA] md:w-[646px]  w-[360px]  p-6 border-[1px] border-solid rounded-[12px] border-[#91929533]'>
                     <div>
                         <img src={icon1} alt="DevGenius Target Icon" className='mt-[6px]' />
                     </div>
@@ -28,6 +29,7 @@ const UserSupport = () => {
                         <p className='text-[#5F6065] mt-1 font-normal md:text-base text-xs'>Goals and objectives are vague or constantly changing, making it <br /> difficult for teams to prioritize their work effectively.</p>
                     </div>
                 </div>
+                {/* user-support-section second card */}
                 <div className='flex mt-5 gap-6 bg-[#F9F9FA] md:w-[646px] w-[360px]  p-6 border-[1px] border-solid rounded-[12px] border-[#91929533]'>
                     <div>
                         <img src={icon2} alt="DevGenius Support Icon" className='mt-[7px]' />
@@ -37,6 +39,7 @@ const UserSupport = () => {
                         <p className='text-[#5F6065] mt-1 font-normal  md:text-base text-xs'>Miscommunications lead to misunderstandings, delays, and errors <br /> in project execution.</p>
                     </div>
                 </div>
+                {/* user-support-section third card */}
                 <div className='flex mt-5 gap-6 bg-[#F9F9FA] md:w-[646px] w-[360px] p-6 border-[1px] border-solid rounded-[12px] border-[#91929533]'>
                     <div>
                         <img src={icon3} alt="DevGenius Calender Icon" className='mt-[7px]' />
@@ -49,7 +52,7 @@ const UserSupport = () => {
                </div>
             </div>
             {/* user-support-section iamge and playbutton */}
-            <div className='md:mt-0 mt-6' >
+            <div className='lg:mt-0 md:mt-6 mt-6' >
             <div className='grid gap-5 grid-cols-2 '>
                 <div>
                     <img src={image1} alt="DevGenius Image-1"  />
@@ -66,7 +69,7 @@ const UserSupport = () => {
                 </div>
 
                 <div>
-                <div className=' relative md:-mt-[379px] md:ml-[245px] -mt-[220px] ml-[80px]'>
+                <div className=' relative md:-mt-[375px] md:ml-[250px] -mt-[244px] ml-[117px]'>
                     <img src={PlayImage} alt="DevGenius Play Image Icon" />
                 </div>
               

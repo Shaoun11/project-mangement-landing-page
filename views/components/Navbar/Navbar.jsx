@@ -1,5 +1,5 @@
 import React from 'react';
-
+import logo from '../../../public/Logo.svg'
 
 const Navbar = () => {
     return (
@@ -36,7 +36,7 @@ const Navbar = () => {
       </ul>
     </div>
    <div className='md:ml-16 flex'>
-   <img src="https://svgshare.com/i/16Nw.svg" className='' alt="" />
+   <img src={logo} className='' alt="" />
     <a className=" text-xl font-medium ml-2 mt-[3px]">Optiplan</a>
    </div>
   </div>
